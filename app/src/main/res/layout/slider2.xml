@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        android:src="@mipmap/buddy" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jollylodgerregular"
+        android:text="Common Sense Buddy"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="40sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_message2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:fontFamily="@font/jollylodgerregular"
+        android:text="Hey , And you know if you are a male we call you as 'Buddy', And the wear is called 'Buddy Wear'"
+        android:textAlignment="center"
+        android:textColor="@color/textWhite"
+        android:textSize="26sp"
+        android:padding="16dp"/>
+
+</LinearLayout>

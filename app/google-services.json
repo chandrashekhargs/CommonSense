@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1031110700206",
+    "firebase_url": "https://commonsense-845db.firebaseio.com",
+    "project_id": "commonsense-845db",
+    "storage_bucket": "commonsense-845db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031110700206:android:8d7566975a714263f7113f",
+        "android_client_info": {
+          "package_name": "com.commonsense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031110700206-96ujbprs2u8n0telb3vq6re8ei2jj8ai.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.commonsense",
+            "certificate_hash": "49ddedccc8c6f3c5f7e17a2f38babb67e89485f8"
+          }
+        },
+        {
+          "client_id": "1031110700206-01qvejte6pbkp5s02gg52m76lu98eifj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcHjcNu-fLIRQN6MfHJMSS2n2pdzDdWKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031110700206-01qvejte6pbkp5s02gg52m76lu98eifj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

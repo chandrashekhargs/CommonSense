@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeNo" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.CommonSense.Button.signup" parent="Widget.AppCompat.Button">
+        <item name="android:paddingTop">@dimen/cs_mtrl_button_signin_padding_top</item>
+        <item name="android:paddingBottom">@dimen/cs_mtrl_button_signin_padding_bottom</item>
+        <item name="cornerRadius">@dimen/cs_btn_signin_corner_radius</item>
+    </style>
+
+    <style name="Theme.CommonSense.Button.Icon.Facebook" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textColor">@color/textWhite</item>
+        <item name="android:background">@drawable/ripple_button_fb</item>
+        <item name="cornerRadius">@dimen/cs_appcompat_btn_corner_radius</item>
+    </style>
+
+    <style name="Theme.CommonSense.Button.Icon.Google" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textColor">@color/textBlack</item>
+        <item name="android:background">@drawable/ripple_button_google</item>
+        <item name="cornerRadius">@dimen/cs_appcompat_btn_corner_radius</item>
+    </style>
+
+    <!--EDITTEXT THEMING-->
+    <style name="Widget.cs.TextInputLayout.OutlineBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox" />
+    <!--<style name="Widget.Kettlemind.TextInputLayout.OutlineBox" parent="Widget.MaterialComponents.TextInputLayout.OutlineBox" />-->
+
+</resources>

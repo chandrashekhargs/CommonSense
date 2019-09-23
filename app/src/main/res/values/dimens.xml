@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="layout_default_padding">16dp</dimen>
+
+    <dimen name="cs_mtrl_button_signin_padding_top">14dp</dimen>
+    <dimen name="cs_mtrl_button_signin_padding_bottom">14dp</dimen>
+    <dimen name="cs_btn_signin_corner_radius">24dp</dimen>
+    <dimen name="cs_appcompat_btn_corner_radius">100dp</dimen>
+
+    <!--Edittext THEMING-->
+    <dimen name="km_edittext_size">15sp</dimen>
+    <dimen name="km_edittext_margin_top">16dp</dimen>
+</resources>

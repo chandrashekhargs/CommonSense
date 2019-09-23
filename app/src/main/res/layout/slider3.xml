@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/dimp"
+        android:foregroundGravity="center" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_title3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Common Sense Dimples"
+        android:textAlignment="center"
+        android:fontFamily="@font/jollylodgerregular"
+        android:textSize="40sp"
+        android:textColor="@color/colorAccent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:textAlignment="center"
+        android:id="@+id/text_message3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="26sp"
+        android:fontFamily="@font/jollylodgerregular"
+        android:textColor="@color/textWhite"
+        android:padding="16dp"
+        android:text="Hey , And you know if you are a female we call you as 'Dimple', And the wear is called 'Dimple Wear'"/>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#654141</color>
+    <color name="colorPrimaryDark">#5F4141</color>
+    <!--<color name="colorAccent">#D81B60</color>-->
+    <color name="colorAccent">#D3A722</color>
+
+    <color name="textBlack">#000000</color>
+    <color name="textWhite">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="icon_color">#68000000</color>
+
+    <!--LOGO COLORS-->
+    <color name="logoPrimary">#654141</color>
+    <color name="logoSecondary">#D3A722</color>
+    <color name="logoLight">#E1C369</color>
+    <color name="logoDark">#866A6A</color>
+
+    <color name="color_fb">#4267B2</color>
+    <color name="color_fb_lite">#cc4267B2</color>
+    <color name="color_google">#ffffff</color>
+    <color name="color_mail">#757575</color>
+    <color name="km_google_ripple">#6c525252</color>
+    <color name="fb_ripple">#6c525252</color>
+    <color name="shadow">#BDBDBD</color>
+
+</resources>

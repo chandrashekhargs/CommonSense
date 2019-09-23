@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Common Sense</string>
+    <string name="ch_image">ch_image</string>
+    <string name="hello_msg">Myself Mr. Bobby , Super excited to see you here....You know i am crazily lazy.. So i will be finding smarter way everytime....No problem as a friend i will guide you to find the smarter ways of clothing experience ...Finally Welcome to COMMON SENSE</string>
+    <string name="welcome_title">Hello! hello! hello! </string>
+    <string name="skip">SKIP</string>
+    <string name="next">NEXT</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="home">Home</string>
+    <string name="inbox">Inbox</string>
+    <string name="cart">Cart</string>
+    <string name="profile">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

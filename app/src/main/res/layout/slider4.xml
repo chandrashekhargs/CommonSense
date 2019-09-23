@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ch_1"
+        android:foregroundGravity="center" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_title4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login / Register"
+        android:textAlignment="center"
+        android:fontFamily="@font/jollylodgerregular"
+        android:textSize="40sp"
+        android:textColor="@color/colorAccent"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        app:backgroundTint="@android:color/transparent"
+        app:cornerRadius="8dp"
+        app:rippleColor="@color/colorAccent"
+        app:strokeColor="@color/colorAccent"
+        app:strokeWidth="2dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="REGISTER"
+        android:paddingLeft="37dp"
+        android:paddingRight="37dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        app:backgroundTint="@android:color/transparent"
+        app:cornerRadius="8dp"
+        app:rippleColor="@color/colorAccent"
+        app:strokeColor="@color/colorAccent"
+        app:strokeWidth="2dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"/>
+</LinearLayout>
